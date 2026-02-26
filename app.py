@@ -12,7 +12,7 @@ from src.guardrails import ml_engine, filter_utils
 
 # --- CONFIG & SETUP ---
 load_dotenv()
-st.set_page_config(page_title="F5 Style AI Guardrail Demo", layout="wide")
+st.set_page_config(page_title="AI Guardrail Demo", layout="wide")
 
 BASE_DIR = Path(__file__).parent
 LOG_FILE = BASE_DIR / "data" / "red_team_logs.csv"
